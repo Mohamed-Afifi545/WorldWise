@@ -9,7 +9,6 @@ const flagemojiToPNG = (flag) => {
   );
 };
 function CountryItem({ country }) {
-  console.log(country);
   return (
     <li className={styles.countryItem}>
       <span>{flagemojiToPNG(country.emoji)}</span>
